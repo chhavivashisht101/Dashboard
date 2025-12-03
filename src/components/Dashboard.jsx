@@ -13,7 +13,7 @@ import {
 import { FaUsers, FaBox } from "react-icons/fa";
 import Table from "./Tabel";
 import Calendar from "./Calendar";
-import UserProfile from "./userprofile";
+// import UserProfile from "./userprofile";
 import Logout from "./Logout";
 import Form from "./Form";
 import Ecommerce from "./Ecommerce";
@@ -226,7 +226,7 @@ function Dashboard() {
         {/* ------------------- USER PROFILE ------------------- */}
         {activeMenu === "userProfile" && (
           <div className="mt-6">
-            <UserProfile />
+            {/* <UserProfile /> */}
           </div>
         )}
 
