@@ -4,7 +4,7 @@ import Signin from "./components/Signin";
 import SignUp from "./components/Signup";
 import Tabel from "./components/Tabel";
 import Calendar from "./components/Calendar";
-import UserProfile from "./components/userprofile";
+// import UserProfile from "./components/userprofile";
 import Logout from "./components/Logout";
 import Form from "./components/Form";
 import Ecommerce from "./components/Ecommerce";
@@ -22,7 +22,7 @@ function App() {
           <Route path="/Dashboard" element={<Dashboard />} />
           <Route path="/Tabel" element={<Tabel />} />
           <Route path="/Calendar" element={<Calendar />} />
-          <Route path="/UserProfile" element={<UserProfile />} />
+          {/* <Route path="/UserProfile" element={<UserProfile />} /> */}
           <Route path="/Logout" element={<Logout />} />
           <Route path="/Form" element={<Form />} />
           <Route path="/Ecommerce" element={<Ecommerce />} />
